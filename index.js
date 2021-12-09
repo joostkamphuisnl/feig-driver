@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require('./lib/feig');
+exports = module.exports = require('./lib/feig');
