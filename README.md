@@ -1,6 +1,6 @@
-# Feig Electronic OBID classic-pro Javascript driver
+# Feig Electronic OBID classic-pro RFID Javascript driver
 
-Javascript driver to communicate with the OBID classic-pro interface by Feig Electronic GmbH.
+Javascript driver to communicate with the OBID classic-pro RFID interface by Feig Electronic GmbH.
 
 > Concept based on the C# library [Amarok79/InlayTester.Drivers.FeigReader](https://github.com/Amarok79/InlayTester.Drivers.FeigReader)
 
