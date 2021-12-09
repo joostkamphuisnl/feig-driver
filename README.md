@@ -4,8 +4,6 @@ Javascript driver to communicate with the OBID classic-pro interface by Feig Ele
 
 > Concept based on the C# library [Amarok79/InlayTester.Drivers.FeigReader](https://github.com/Amarok79/InlayTester.Drivers.FeigReader)
 
-## Example code
-
 ```js
 const Reader = require('feig-driver')
 
@@ -26,3 +24,30 @@ reader.connect().then(() => {
 
 })
 ```
+
+## Installation
+
+This is a [Node.js](https://nodejs.org/en/) module available through the npm registry.
+
+Before installing, download and install Node.js. Node.js 8.10 or higher is required.
+
+If this is a brand new project, make sure to create a `package.json` first with the [`npm init` command](https://docs.npmjs.com/creating-a-package-json-file).
+
+Installation is done using the [`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
+```
+npm install feig-driver
+```
+
+## Hardware support
+
+Tested models
+
+- ID CPR74
+
+Supported transponders
+
+- ISO15693
+
+## Contributing
+
+Feel free to change the code and add support for other models / transponders.
