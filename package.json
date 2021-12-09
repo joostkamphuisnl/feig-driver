@@ -1,24 +1,35 @@
 {
-    "name": "feig-driver",
-    "description": "Javascript driver for Feig Electronics RFID readers.",
-    "version": "0.9.0-beta1",
-    "homepage": "https://github.com/joostkamphuisnl/feig-driver",
-    "author": "Joost Kamphuis <joost@twisted.nl> (https://www.twisted.nl)",
-    "engines": {
-        "node": ">= 8.10.0"
-    },
-    "files": [
-        "LICENSE",
-        "README.md",
-        "index.js",
-        "lib/"
-    ],
-    "dependencies": {
-        "usb": "^1.9.2"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/joostkamphuisnl/feig-driver.git"
-    },
-    "license": "ISC"
+  "name": "feig-driver",
+  "description": "Javascript driver for Feig Electronics RFID readers.",
+  "version": "0.9.0-beta1",
+  "homepage": "https://github.com/joostkamphuisnl/feig-driver",
+  "author": "Joost Kamphuis <joost@twisted.nl> (https://www.twisted.nl)",
+  "engines": {
+    "node": ">= 8.10.0"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "lib/"
+  ],
+  "dependencies": {
+    "usb": "^1.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joostkamphuisnl/feig-driver.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joostkamphuisnl/feig-driver/issues"
+  },
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
