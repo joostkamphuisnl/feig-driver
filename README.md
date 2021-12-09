@@ -1,6 +1,8 @@
-# Feig ID CPR74 Javascript driver
+# Feig Electronic OBID classic-pro Javascript driver
 
-Still under construction.
+Javascript driver to communicate with the OBID classic-pro interface by Feig Electronic GmbH.
+
+> Concept based on the C# library [Amarok79/InlayTester.Drivers.FeigReader](https://github.com/Amarok79/InlayTester.Drivers.FeigReader)
 
 ## Example code
 
