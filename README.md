@@ -1,4 +1,5 @@
 # Feig Electronic OBID classic-pro RFID Javascript driver
+[![npm version](https://badge.fury.io/js/feig-driver.svg)](https://badge.fury.io/js/feig-driver)
 
 Javascript driver to communicate with the OBID classic-pro RFID interface by Feig Electronic GmbH.
 
