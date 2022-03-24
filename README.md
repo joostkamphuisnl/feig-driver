@@ -19,8 +19,9 @@ const reader = new Reader({
 reader.connect().then(() => {
 
     // Request the current inventory, returns a promise with all found tag ID's.
-    reader.inventory().then(foundTags => {
-        console.log('Tags:', foundTags)
+    reader.inventory().then(response => {
+        const { status, raw, tags } = response
+        console.log('Tags:', tags)
     })
 
 })
@@ -43,10 +44,12 @@ npm install feig-driver
 
 Tested models
 
-- ID CPR74
+- ID CPR40.xx
+- ID CPR74.xx
 
 Supported transponders
 
+- ISO14443A
 - ISO15693
 
 ## Contributing
