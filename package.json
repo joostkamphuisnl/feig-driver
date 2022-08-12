@@ -1,7 +1,7 @@
 {
   "name": "feig-driver",
   "description": "Javascript driver for Feig Electronic GmbH OBID classic-pro RFID readers.",
-  "version": "0.9.6.1",
+  "version": "0.9.7",
   "homepage": "https://github.com/joostkamphuisnl/feig-driver",
   "author": "Joost Kamphuis <joost@twisted.nl> (https://www.twisted.nl)",
   "engines": {
